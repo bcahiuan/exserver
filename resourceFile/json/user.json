@@ -1,0 +1,12 @@
+{
+  "login": {
+    "username": "BAI",
+    "password": "123456",
+    "uuid": "ZXCVBN"
+  },
+  "loginInFo": {
+    "nickname": "黑山羊",
+    "avatar": "头像",
+    "introduction": "简介"
+  }
+}

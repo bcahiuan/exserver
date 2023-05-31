@@ -1,0 +1,70 @@
+/* 清除默认样式 */
+
+/* 去除标签自带的margin和padding */
+/* body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置页面的统一的样式 */
+body {
+  font: 12px "宋体" "Arial Narrow" HELVETICA;
+  background: #fff;
+  word-wrap: break-word;
+}
+
+/* 去除a标签默认样式 */
+a {
+  text-decoration: none;
+}
+
+/* i使斜体的文字正常 em使强调的内容正常 */
+em,i {
+  font-style: normal;
+}
+
+strong,b {
+  font-weight: 100;
+}
+
+/* 去除li元素默认的小圆点 */
+li {
+  list-style: none;
+}
+
+/* 去除图片的margin和padding */
+img {
+  display: block;
+}
+
+/* 设置单元格为单线样式 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 首行缩进连两个单位 */
+.indent {
+  text-indent: 2em;
+}
+.noborder {
+  border: 0;
+}
+
+/* 省略号 */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 清除浮动 */
+.clear::after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

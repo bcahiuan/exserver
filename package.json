@@ -1,0 +1,23 @@
+{
+  "name": "user-defined-server",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "image-size": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcahiuan/exserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcahiuan/exserver/issues"
+  },
+  "homepage": "https://github.com/bcahiuan/exserver#readme"
+}
